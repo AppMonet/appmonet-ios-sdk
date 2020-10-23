@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>-[AMOBidManagerTest test_Given_AddBids_With_One_Invalid_Bid_Then_Store_Should_Be_Empty].xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>All in AppMonetTests.m.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+		<key>App copy.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>22</integer>
+		</dict>
+		<key>App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
+		<key>AppMonet-iOS-Mopub.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>21</integer>
+		</dict>
+		<key>AppMonet.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
+		<key>AppMonet.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>AppMonet_Bidder.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>AppMonet_Bidder.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>AppMonet_Dfp copy.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
+		<key>AppMonet_Dfp.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>AppMonet_DfpTest.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>AppMonet_Mopub.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>App_AdMob.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>App_Bidder.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>App_Bidder.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>App_DFP.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>App_Dfp.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+		<key>App_Mopub copy.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
+		</dict>
+		<key>App_Mopub.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>App_Mopub.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>App_MopubTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
+		<key>App_MopubUITests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>820DCF861FD887A700005E5C</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>821A5FDD20BDDEE000742173</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>821A60D620BEEC0B00742173</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>828965FB1FCDB16D008FE03E</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>828966041FCDB16D008FE03E</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>8289669F1FCDB91C008FE03E</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>828966B61FCDB91D008FE03E</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>828966C11FCDB91D008FE03E</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>82B02BA61FD6E745002B622E</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>82C13B7223678777000870AA</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>82C13C5D23678C82000870AA</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>82D060DE1FD0C52D0068B2E4</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>82D3793A24649F8200804B8E</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>82D7AE562476C79B00CAFDC0</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+	</dict>
+</dict>
+</plist>

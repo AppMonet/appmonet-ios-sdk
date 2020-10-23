@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="FE3-Xr-mrY">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="AdsViewController" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xf6-rH-BXu"/>
+                        <viewControllerLayoutGuide type="bottom" id="hmw-qs-vP7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WZ5-wl-6ft">
+                                <rect key="frame" x="16" y="87" width="68" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Interstitial"/>
+                                <connections>
+                                    <action selector="interstitial:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yyH-39-LWf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4q4-Kr-Sf9">
+                                <rect key="frame" x="16" y="116" width="68" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.0099468241871529806" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
+                                <state key="normal" title="Memory">
+                                    <color key="titleColor" red="0.95147183470967778" green="1" blue="0.97049814845954085" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="memoryButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Jq-7m-LGE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G8k-Y1-z3a">
+                                <rect key="frame" x="263" y="87" width="44" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Native"/>
+                                <connections>
+                                    <segue destination="cbX-nB-kru" kind="show" id="flp-VP-r6w"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wyA-AN-8K2">
+                                <rect key="frame" x="156" y="288" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Fetch Ad"/>
+                                <connections>
+                                    <action selector="fetchAd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bzJ-fs-7y0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.60931619854278873" green="0.67179222231192881" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <edgeInsets key="layoutMargins" top="0.0" left="20" bottom="20" right="20"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6Dh-fN-vgm">
+                        <nil key="title"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="524" y="-48.125937031484263"/>
+        </scene>
+        <!--Native View Controller-->
+        <scene sceneID="NRi-fN-acF">
+            <objects>
+                <viewController storyboardIdentifier="NativeViewController" id="cbX-nB-kru" customClass="NativeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="P0U-NP-Sg0"/>
+                        <viewControllerLayoutGuide type="bottom" id="Wla-RQ-d6n"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bx6-Zv-jR1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oa9-Dq-H9q">
+                                <rect key="frame" x="164" y="318" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="getAd:" destination="cbX-nB-kru" eventType="touchUpInside" id="Ne5-py-eNg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NEy-xI-2jY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5D0-5N-6k1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1321" y="287"/>
+        </scene>
+        <!--Interstitial View Controller-->
+        <scene sceneID="1pH-SX-DJH">
+            <objects>
+                <viewController storyboardIdentifier="InterstitialViewController" id="QVs-Jp-R3T" customClass="InterstitialViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sMM-jw-r43"/>
+                        <viewControllerLayoutGuide type="bottom" id="P1a-XG-DyW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4mq-om-HMH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.99413027388413622" blue="0.97883739388035518" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qc9-ye-yMt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IPl-jU-mAx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="466" y="843"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="KeU-jf-rWD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FE3-Xr-mrY" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qY9-c7-ofz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="rmC-ol-A8E"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vE5-ry-zjk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-697" y="32"/>
+        </scene>
+        <!--Master View Controller-->
+        <scene sceneID="r5g-us-UJC">
+            <objects>
+                <viewController storyboardIdentifier="MasterViewController" id="h8p-FC-QKj" customClass="MasterViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="avP-YF-Ivj"/>
+                        <viewControllerLayoutGuide type="bottom" id="idl-Xt-Igr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Gf2-v1-LeN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NcQ-n4-LHY">
+                        <nil key="title"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KPD-44-AuD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-698" y="864"/>
+        </scene>
+    </scenes>
+</document>

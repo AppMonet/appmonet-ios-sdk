@@ -1,0 +1,6 @@
+[submodule "AppMonet/Bidder"]
+	path = AppMonet/Bidder
+	url = https://github.com/AppMonet/standalone-ios-sdk
+[submodule "App_Bidder"]
+	path = App_Bidder
+	url = https://github.com/AppMonet/standalone-ios-app

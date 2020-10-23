@@ -1,0 +1,6 @@
+framework module AppMonet_Mopub {
+    umbrella header "appmonet-mopub-ios-sdk-umbrella.h"
+    
+    export *
+    module * { export *} 
+}

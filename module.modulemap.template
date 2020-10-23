@@ -1,0 +1,6 @@
+framework module @product@ {
+    umbrella header "AppMonet.h"
+
+    export *
+    module * { export * }
+}
